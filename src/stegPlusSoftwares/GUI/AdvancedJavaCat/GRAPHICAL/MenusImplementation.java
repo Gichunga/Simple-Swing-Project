@@ -120,9 +120,8 @@ public class MenusImplementation extends JFrame implements ActionListener {
 
 
         // create an exit button with an icon
-        JButton exitButton = new JButton();
+        JButton exitButton = new JButton("exit");
         exitButton.setIcon(icon);
-        exitButton.setActionCommand("exit");
         exitButton.addActionListener(this);
         buttonPanel.add(exitButton);
 
